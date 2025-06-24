@@ -1,4 +1,4 @@
-@import './mixins';
+@use '@/assets/styles/mixins' as *;
 
 html {
   font-size: 62.5%;
