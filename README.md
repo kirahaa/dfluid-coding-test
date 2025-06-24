@@ -1,12 +1,22 @@
-# React + Vite
+# 디플루이드 코딩테스트 과제
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 주요 기능
+- 프로필 카드 임의 배치
+- API를 이용해 임의의 배경 이미지 삽입
+- 이메일 유효성 검사
+- 카드 데이터 정의, 필터 기능 구현
 
-Currently, two official plugins are available:
+## 사용 기술
+- React (Hooks 기반)
+- SCSS (CSS Modules)
+- Swiper (이미지 슬라이더)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 설치 및 실행 방법
+```bash
+git clone https://github.com/kirahaa/dfluid-coding-test.git
 
-## Expanding the ESLint configuration
+cd dfluid-coding-test
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+
+npm start
