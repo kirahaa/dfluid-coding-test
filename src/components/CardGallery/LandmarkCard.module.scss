@@ -1,0 +1,48 @@
+@use '@/assets/styles/mixins' as *;
+
+.card {
+  max-width: 40rem;
+  min-width: 40rem;
+  height: 41.5rem;
+  flex-shrink: 0;
+  padding: 1.5rem 2rem 2.3rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background-color: rgba(217, 217, 217, 0.5);
+
+  .header {
+    @include font-Mont;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .9rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .year {
+    font-size: 1.6rem;
+  }
+
+  .image {
+    width: 36rem;
+    height: 22.7rem;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    @include font-Mont;
+    font-size: 1.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    line-height: normal;
+  }
+}

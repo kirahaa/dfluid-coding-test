@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-Exo2: "Exo 2", sans-serif;
+$font-Montserrat: "Montserrat", sans-serif;
+
+@mixin font-Exo2 {
+  font-family: $font-Exo2;
+}
+
+@mixin font-Mont {
+  font-family: $font-Montserrat;
+}

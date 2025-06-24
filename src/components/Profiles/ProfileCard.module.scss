@@ -1,0 +1,33 @@
+@use '@/assets/styles/mixins' as *;
+
+.imageContainer {
+  width: 10.8rem;
+  height: 10.8rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 4rem;
+}
+
+.name {
+  @include font-Mont;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+.description {
+  @include font-Mont;
+  margin: 2.4rem 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 3rem;
+}
+
+.learnMore {
+  @include font-Exo2;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #18A0FB;
+  cursor: pointer;
+}
